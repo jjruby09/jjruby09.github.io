@@ -1,46 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description"
-        content="JJ Ruby — Senior Director of R&amp;D, Houston Astros · Visiting Assistant Professor, Mechanical Engineering, University of Rochester. Applied information theory across high-energy-density physics and baseball operations.">
+    content="JJ Ruby — Senior Director of R&amp;D, Houston Astros · Visiting Assistant Professor, Mechanical Engineering, University of Rochester. Applied information theory across high-energy-density physics and baseball operations.">
   <title>JJ Ruby</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
 
-  <!-- ============================================================
-       Navigation
-  ============================================================= -->
+<body data-page="home">
+
+  <!-- Navigation -->
   <nav id="site-nav" aria-label="Primary navigation">
     <div class="container nav-inner">
-      <a href="#hero" class="nav-brand" aria-label="JJ Ruby — home">JJ Ruby</a>
+      <a href="index.html" class="nav-brand" aria-label="JJ Ruby — home">JJ Ruby</a>
 
-      <button id="nav-toggle"
-              class="nav-toggle"
-              aria-controls="nav-links"
-              aria-expanded="false"
-              aria-label="Toggle navigation menu">
-        <span class="icon-open"  aria-hidden="true">&#9776;</span>
+      <button id="nav-toggle" class="nav-toggle" aria-controls="nav-links" aria-expanded="false"
+        aria-label="Toggle navigation menu">
+        <span class="icon-open" aria-hidden="true">&#9776;</span>
         <span class="icon-close" aria-hidden="true">&#10005;</span>
       </button>
 
       <ul id="nav-links" class="nav-links" role="list">
-        <li><a href="#about">About</a></li>
-        <li><a href="#work">Work</a></li>
-        <li><a href="#philosophy">Philosophy</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="work.html">Work</a></li>
+        <li><a href="philosophy.html">Philosophy</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </div>
   </nav>
 
   <main>
 
-    <!-- ============================================================
-         Hero
-    ============================================================= -->
-    <section id="hero" aria-labelledby="hero-name">
+    <!-- Hero -->
+    <section class="hero" aria-labelledby="hero-name">
       <div class="container">
         <p class="hero-eyebrow">Applied information theory — extracting signal from noise</p>
         <h1 id="hero-name" class="hero-name">JJ Ruby</h1>
@@ -53,233 +49,134 @@
           systems — from laser-driven implosions to the game of baseball.
           The dataset changes; the discipline doesn't.
         </p>
-        <a href="#about" class="hero-cta">Read more</a>
+        <a href="about.html" class="btn btn-primary">Read more</a>
       </div>
     </section>
 
-    <!-- ============================================================
-         About
-    ============================================================= -->
-    <section id="about" aria-labelledby="about-heading">
+    <!-- Featured -->
+    <section class="section" aria-labelledby="featured-heading">
       <div class="container">
-        <span class="label">About</span>
-        <h2 id="about-heading">The Core Thread</h2>
+        <span class="label">Featured</span>
+        <h2 id="featured-heading">At the Intersection of Science &amp; Sport</h2>
 
-        <div class="about-grid">
-          <div>
-            <div class="thread-box" role="note">
-              <p>
-                Science is the iterative process of building models of how nature
-                works, testing them against data, and updating your beliefs
-                accordingly. That's Bayesian inference at its core — and it applies
-                whether you're diagnosing a laser-driven fusion implosion or
-                projecting a pitcher's future performance.
-              </p>
+        <div class="media-row">
+          <figure class="figure">
+            <div class="figure-placeholder" aria-label="Placeholder for featured image">
+              <svg class="figure-placeholder-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="18" height="18" rx="2" />
+                <circle cx="8.5" cy="8.5" r="1.5" />
+                <path d="m21 15-5-5L5 21" />
+              </svg>
+              <span>Image or photo</span>
             </div>
-          </div>
-
-          <div>
+            <figcaption>A representative photograph — e.g., OMEGA laser target chamber, Minute Maid Park, or research
+              presentation.</figcaption>
+          </figure>
+          <div class="media-row-text">
             <p>
               My career has been structured around one question: <em>what can the
-              data actually tell us?</em> Not what we want it to say, not what
+                data actually tell us?</em> Not what we want it to say, not what
               confirms existing intuition — what the signal actually supports once
               you've honestly accounted for the noise.
             </p>
             <p>
               I moved from experimental high-energy-density physics into professional
-              baseball operations because the underlying methodology is identical.
-              Both fields require constructing rigorous probabilistic models, running
-              them against expensive experimental data, and making decisions under
-              meaningful uncertainty with real consequences.
+              baseball operations because the underlying methodology is identical:
+              build rigorous probabilistic models, test them against expensive data,
+              and make decisions under meaningful uncertainty.
             </p>
-            <p>
-              The tools are Bayesian statistics, Monte Carlo methods, and the
-              discipline to distinguish between a genuine result and a story you
-              told yourself.
-            </p>
+            <a href="about.html" class="link-arrow">Learn about my approach &rarr;</a>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- ============================================================
-         Work
-    ============================================================= -->
-    <section id="work" aria-labelledby="work-heading">
+    <!-- Highlights -->
+    <section class="section section-alt" aria-labelledby="highlights-heading">
       <div class="container">
-        <span class="label">Work</span>
-        <h2 id="work-heading">Background &amp; Experience</h2>
+        <span class="label">Highlights</span>
+        <h2 id="highlights-heading">Areas of Focus</h2>
 
-        <div class="work-grid">
+        <div class="card-grid card-grid-3">
 
-          <!-- Physics -->
-          <article class="work-card" aria-labelledby="card-physics">
-            <h3 id="card-physics">High-Energy-Density Physics &amp; Fusion Science</h3>
-            <p class="org">Laboratory for Laser Energetics · Lawrence Livermore National Laboratory</p>
-            <p>
-              My scientific foundation was built studying inertial confinement fusion
-              (ICF) and high-energy-density (HED) physics — regimes where intense
-              laser pulses drive matter to extreme pressures and temperatures to test
-              fundamental models of plasma behavior.
-            </p>
-            <ul>
-              <li>Designed and fielded experiments on the OMEGA laser facility studying
-                  laser-driven implosion dynamics, hydrodynamic instabilities, and
-                  nuclear burn physics.</li>
-              <li>Applied Bayesian inference and MCMC methods to diagnose implosion
-                  performance from nuclear and X-ray observables, separating physical
-                  signal from complex experimental noise floors.</li>
-              <li>Built simulation workflows coupling radiation-hydrodynamics codes
-                  to diagnostic forward models to enable principled comparison of
-                  theory to experiment.</li>
-              <li>Contributed to the understanding of energy coupling, mix, and
-                  stagnation physics critical to the ignition roadmap at the
-                  National Ignition Facility.</li>
-            </ul>
-          </article>
+          <a href="work.html#physics" class="card card-hover">
+            <div class="card-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10" />
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10A15.3 15.3 0 0 1 12 2z" />
+                <path d="M2 12h20" />
+              </svg>
+            </div>
+            <h3>Fusion Science &amp; HED Physics</h3>
+            <p>Inertial confinement fusion, laser-driven implosion diagnostics, and Bayesian inference in extreme
+              regimes.</p>
+            <span class="link-arrow">Explore &rarr;</span>
+          </a>
 
-          <!-- Baseball -->
-          <article class="work-card" aria-labelledby="card-baseball">
-            <h3 id="card-baseball">Baseball Research &amp; Development</h3>
-            <p class="org">Houston Astros — Senior Director, R&amp;D</p>
-            <p>
-              Leading the R&amp;D function for one of Major League Baseball's most
-              analytically sophisticated organizations. The work is the same as
-              physics: build honest models of complex systems, test them against
-              observed outcomes, and inform decisions under uncertainty.
-            </p>
-            <ul>
-              <li>Direct research portfolio spanning player evaluation, biomechanics,
-                  in-game strategy, and player development — with a focus on
-                  translational research that actually influences decisions.</li>
-              <li>Build and deploy probabilistic models of player performance and
-                  development trajectories using hierarchical Bayesian frameworks
-                  and modern machine learning methods.</li>
-              <li>Bridge the gap between research and baseball operations — translating
-                  statistical findings into actionable, decision-relevant outputs for
-                  scouts, coaches, and front-office leadership.</li>
-              <li>Maintain a rigorous culture of epistemic honesty: models that
-                  acknowledge their own uncertainty are more useful than those that
-                  don't.</li>
-            </ul>
-          </article>
+          <a href="work.html#baseball" class="card card-hover">
+            <div class="card-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7z" />
+                <circle cx="12" cy="12" r="3" />
+              </svg>
+            </div>
+            <h3>Baseball R&amp;D</h3>
+            <p>Probabilistic player models, biomechanics research, and translational analytics at the MLB level.</p>
+            <span class="link-arrow">Explore &rarr;</span>
+          </a>
 
-          <!-- Teaching — full width -->
-          <article class="work-card work-card-full" aria-labelledby="card-teaching">
-            <h3 id="card-teaching">Teaching &amp; Academic Work</h3>
-            <p class="org">University of Rochester — Visiting Assistant Professor, Mechanical Engineering</p>
-            <p>
-              Teaching and mentoring at the intersection of applied physics, data
-              science, and engineering. Courses draw directly from practical
-              experience in both national laboratory and professional sports
-              research environments.
-            </p>
-            <ul>
-              <li>Instruction in statistical mechanics, computational methods, and
-                  applied probability — emphasizing intuition alongside formalism.</li>
-              <li>Active mentorship of students pursuing careers in research,
-                  data science, and quantitative analysis across industries.</li>
-              <li>Ongoing collaboration with faculty in physics and engineering on
-                  problems at the boundary of data-driven modeling and physical
-                  theory.</li>
-            </ul>
-          </article>
+          <a href="work.html#teaching" class="card card-hover">
+            <div class="card-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
+                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
+              </svg>
+            </div>
+            <h3>Teaching &amp; Mentorship</h3>
+            <p>Applied probability, computational methods, and statistical mechanics at the University of Rochester.</p>
+            <span class="link-arrow">Explore &rarr;</span>
+          </a>
 
         </div>
       </div>
     </section>
 
-    <!-- ============================================================
-         Philosophy
-    ============================================================= -->
-    <section id="philosophy" aria-labelledby="philosophy-heading">
-      <div class="container">
-        <span class="label">Operating Principles</span>
-        <h2 id="philosophy-heading">Leadership Philosophy</h2>
-
-        <p style="max-width:640px; margin-bottom:2rem;">
-          These aren't aspirational statements — they're operating constraints.
-          Violating them consistently produces bad science and bad organizations.
-        </p>
-
-        <div class="philosophy-grid">
-
-          <div class="principle">
-            <h3>Servant Leadership</h3>
-            <p>
-              The job of leadership is to remove obstacles, provide clarity,
-              and create conditions where talented people can do their best work.
-              Authority is a tool for enabling others, not for self-amplification.
-              Good decisions come from the person closest to the problem, not
-              necessarily the most senior person in the room.
-            </p>
-          </div>
-
-          <div class="principle">
-            <h3>Integrity as a Practical Necessity</h3>
-            <p>
-              Intellectual honesty isn't a virtue signal — it's a prerequisite
-              for doing useful work. In science and in sports analytics, the cost
-              of believing a false model is real and measurable. Being honest about
-              what the data says, including when it contradicts your prior or your
-              preferred narrative, is the only sustainable path.
-            </p>
-          </div>
-
-          <div class="principle">
-            <h3>Psychological Safety &amp; Failure</h3>
-            <p>
-              Discovery requires being wrong. If the environment punishes people
-              for surfacing a bad result, reporting a failed experiment, or
-              disagreeing with leadership, you've destroyed your own feedback loop.
-              Building high psychological safety isn't soft management — it's
-              sound epistemology. The team that can fail openly is the team that
-              learns fastest.
-            </p>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- ============================================================
-         Contact
-    ============================================================= -->
-    <section id="contact" aria-labelledby="contact-heading">
-      <div class="container">
-        <span class="label">Contact</span>
-        <h2 id="contact-heading">Get in Touch</h2>
-        <p>
-          I'm not generally active on social media. For substantive
-          professional inquiries, email is the right channel.
-        </p>
-        <div class="contact-links">
-          <a href="https://github.com/jjruby09"
-             class="contact-link"
-             target="_blank"
-             rel="noopener noreferrer"
-             aria-label="GitHub profile (opens in new tab)">GitHub</a>
-          <a href="https://www.linkedin.com/in/jj-ruby/"
-             class="contact-link"
-             target="_blank"
-             rel="noopener noreferrer"
-             aria-label="LinkedIn profile (opens in new tab)">LinkedIn</a>
+    <!-- Quote -->
+    <section class="section" aria-labelledby="quote-heading">
+      <div class="container text-center">
+        <span class="label" id="quote-heading">Perspective</span>
+        <blockquote class="pull-quote">
+          <p>&ldquo;Science is the iterative process of building models of how nature
+            works, testing them against data, and updating your beliefs
+            accordingly. That&rsquo;s Bayesian inference at its core.&rdquo;</p>
+        </blockquote>
+        <div style="margin-top:2rem;">
+          <a href="philosophy.html" class="btn btn-outline">Operating principles &rarr;</a>
         </div>
       </div>
     </section>
 
   </main>
 
-  <!-- ============================================================
-       Footer
-  ============================================================= -->
+  <!-- Footer -->
   <footer>
-    <div class="container">
-      <p>&copy; <span id="year"></span> JJ Ruby. Built with plain HTML &amp; CSS.</p>
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> JJ Ruby</p>
+      <ul class="footer-links" role="list">
+        <li><a href="about.html">About</a></li>
+        <li><a href="work.html">Work</a></li>
+        <li><a href="philosophy.html">Philosophy</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
     </div>
   </footer>
 
   <script src="js/main.js"></script>
   <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
+
 </html>

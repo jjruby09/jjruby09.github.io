@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact JJ Ruby for professional inquiries.">
+    <title>Contact — JJ Ruby</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body data-page="contact">
+
+    <!-- Navigation -->
+    <nav id="site-nav" aria-label="Primary navigation">
+        <div class="container nav-inner">
+            <a href="index.html" class="nav-brand" aria-label="JJ Ruby — home">JJ Ruby</a>
+            <button id="nav-toggle" class="nav-toggle" aria-controls="nav-links" aria-expanded="false"
+                aria-label="Toggle navigation menu">
+                <span class="icon-open" aria-hidden="true">&#9776;</span>
+                <span class="icon-close" aria-hidden="true">&#10005;</span>
+            </button>
+            <ul id="nav-links" class="nav-links" role="list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li><a href="philosophy.html">Philosophy</a></li>
+                <li><a href="contact.html" aria-current="page">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+
+        <!-- Page Header -->
+        <header class="page-header">
+            <div class="container">
+                <span class="label">Contact</span>
+                <h1 class="page-title">Get in Touch</h1>
+                <p class="page-subtitle">
+                    I'm not generally active on social media. For substantive
+                    professional inquiries, email is the right channel.
+                </p>
+            </div>
+        </header>
+
+        <!-- Contact Content -->
+        <section class="section">
+            <div class="container">
+                <div class="contact-grid">
+
+                    <div class="contact-info">
+                        <h2>Connect</h2>
+                        <p>
+                            Reach out for research collaboration, speaking engagements, academic inquiries,
+                            or substantive professional discussion.
+                        </p>
+
+                        <div class="contact-methods">
+                            <a href="https://github.com/jjruby09" class="contact-card" target="_blank"
+                                rel="noopener noreferrer" aria-label="GitHub profile (opens in new tab)">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path
+                                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                                </svg>
+                                <div>
+                                    <strong>GitHub</strong>
+                                    <span>github.com/jjruby09</span>
+                                </div>
+                            </a>
+
+                            <a href="https://www.linkedin.com/in/jj-ruby/" class="contact-card" target="_blank"
+                                rel="noopener noreferrer" aria-label="LinkedIn profile (opens in new tab)">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path
+                                        d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                                    <rect x="2" y="9" width="4" height="12" />
+                                    <circle cx="4" cy="4" r="2" />
+                                </svg>
+                                <div>
+                                    <strong>LinkedIn</strong>
+                                    <span>linkedin.com/in/jj-ruby</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <figure class="figure">
+                        <div class="figure-placeholder figure-placeholder-portrait"
+                            aria-label="Placeholder for contact photo">
+                            <svg class="figure-placeholder-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <rect x="3" y="3" width="18" height="18" rx="2" />
+                                <circle cx="8.5" cy="8.5" r="1.5" />
+                                <path d="m21 15-5-5L5 21" />
+                            </svg>
+                            <span>Image or photo</span>
+                        </div>
+                        <figcaption>Optional photo — conference presentation, campus, or casual portrait.</figcaption>
+                    </figure>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-inner">
+            <p>&copy; <span id="year"></span> JJ Ruby</p>
+            <ul class="footer-links" role="list">
+                <li><a href="about.html">About</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li><a href="philosophy.html">Philosophy</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+
+</html>
