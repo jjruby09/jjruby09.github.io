@@ -312,7 +312,7 @@ li {
 
 .hero-grid {
   display: grid;
-  grid-template-columns: 160px 1fr;
+  grid-template-columns: 200px 1fr;
   gap: 2.5rem;
   align-items: center;
 }
@@ -322,7 +322,7 @@ li {
 }
 
 .hero-photo img {
-  width: 160px;
+  width: 200px;
   height: auto;
   border-radius: var(--radius);
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
@@ -511,7 +511,7 @@ li {
 
 /* ---------- Pull Quote ---------- */
 .pull-quote {
-  max-width: 640px;
+  max-width: 100%;
   margin-inline: auto;
   padding: 2rem 0;
 }
