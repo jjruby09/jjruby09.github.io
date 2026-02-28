@@ -312,18 +312,18 @@ li {
 
 .hero-grid {
   display: grid;
-  grid-template-columns: 220px 1fr;
-  gap: 3rem;
-  align-items: start;
+  grid-template-columns: 160px 1fr;
+  gap: 2.5rem;
+  align-items: center;
 }
 
 .hero-photo {
-  position: sticky;
-  top: 6rem;
+  flex-shrink: 0;
 }
 
 .hero-photo img {
-  width: 100%;
+  width: 160px;
+  height: auto;
   border-radius: var(--radius);
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 }
@@ -789,8 +789,11 @@ footer {
   }
 
   .hero-photo {
-    max-width: 180px;
-    position: static;
+    max-width: 140px;
+  }
+
+  .hero-photo img {
+    width: 100%;
   }
 
   .page-header {
