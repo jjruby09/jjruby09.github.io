@@ -310,6 +310,24 @@ li {
   padding-block: 5.5rem 4.5rem;
 }
 
+.hero-grid {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+.hero-photo {
+  position: sticky;
+  top: 6rem;
+}
+
+.hero-photo img {
+  width: 100%;
+  border-radius: var(--radius);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
 .hero-eyebrow {
   font-family: var(--font-mono);
   font-size: 0.75rem;
@@ -763,6 +781,16 @@ footer {
 
   .hero {
     padding-block: 3.5rem 3rem;
+  }
+
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .hero-photo {
+    max-width: 180px;
+    position: static;
   }
 
   .page-header {
