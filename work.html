@@ -37,11 +37,9 @@
         <header class="page-header">
             <div class="container">
                 <span class="label">Work</span>
+                <!-- EDITABLE: page-title -->
                 <h1 class="page-title">Background &amp; Experience</h1>
-                <p class="page-subtitle">
-                    Three domains, one methodology — Bayesian inference and data-driven modelling
-                    applied to complex physical systems.
-                </p>
+                <!-- /EDITABLE: page-title -->
             </div>
         </header>
 
@@ -50,8 +48,10 @@
             <div class="container">
                 <span class="label">Physics</span>
                 <h2 id="card-physics">High-Energy-Density Physics &amp; Fusion Science</h2>
+                <!-- EDITABLE: physics-org -->
                 <p class="work-org">Laboratory for Laser Energetics &middot; Lawrence Livermore National Laboratory
                     &middot; University of Rochester</p>
+                <!-- /EDITABLE: physics-org -->
 
                 <div class="media-row">
                     <figure class="figure">
@@ -60,61 +60,124 @@
                         <figcaption>The OMEGA laser target chamber at the Laboratory for Laser Energetics.</figcaption>
                     </figure>
                     <div class="media-row-text">
+                        <!-- EDITABLE: physics-intro -->
                         <p>
-                            My scientific foundation was built studying inertial confinement fusion
-                            (ICF) and high-energy-density (HED) physics — regimes where intense
-                            laser pulses drive matter to extreme pressures and temperatures. My
-                            Ph.D. thesis, <em>Bayesian Inference of Fundamental Physics at Extreme
-                                Conditions</em>, developed new statistical frameworks for extracting
+                            My scientific foundation was built studying high-energy-density (HED) physics.
+                            Specifically my work has primarily been in
+                            laser driven implosion experiments where the most laboratory extreme pressures and
+                            temperatures
+                            are generated. These systems are of fundamental interest and also relevant for the study
+                            of Inertial Confinement Fusion (ICF).
+                            My Ph.D. thesis, <em>Bayesian Inference of Fundamental Physics at Extreme
+                                Conditions</em>, applied Bayesian statistical frameworks for extracting
                             physical information from these experiments.
                         </p>
+                        <!-- /EDITABLE: physics-intro -->
                     </div>
                 </div>
 
                 <div class="detail-list">
+                    <!-- EDITABLE: physics-experimental-design -->
                     <div class="detail-item">
                         <h3>Experimental Design</h3>
-                        <p>Proposed, designed, simulated, and conducted experiments on the OMEGA
-                            laser system studying laser-driven implosion dynamics, converging shock
-                            waves, energy flow in thin shell implosions, and nuclear burn physics.</p>
+                        <p>I have significant experience designing and executing experiments at
+                            the Laboratory for Laser Energetics Omega Laser System. I have primarily performed various
+                            types of implosion experiments on the Omega60 often modulating the types of targets in
+                            order to access different regimes driven by different physical mechanisms.
+                        </p>
                     </div>
+                    <!-- /EDITABLE: physics-experimental-design -->
+                    <!-- EDITABLE: physics-bayesian-diagnostics -->
                     <div class="detail-item">
-                        <h3>Bayesian Diagnostics</h3>
-                        <p>Applied Bayesian inference and MCMC methods to diagnose implosion
-                            performance from nuclear and X-ray observables, constraining physical
-                            models at gigabar pressures and separating signal from complex
-                            experimental noise.</p>
+                        <h3>Bayesian Inference</h3>
+                        <p>Applied Bayesian inference and MCMC methods to extract information from
+                            implosion experiments. Primarily seeking a single self-consistent model
+                            of the implosion dynamics to gain understanding of the physical properties
+                            underlying the evolution of the system. I make use of modern python tools
+                            and frameworks including Jax, PYMC, Numpyro, and others.
+                        </p>
                     </div>
+                    <!-- /EDITABLE: physics-bayesian-diagnostics -->
+                    <!-- EDITABLE: physics-simulation -->
                     <div class="detail-item">
-                        <h3>Simulation &amp; Modelling</h3>
+                        <h3>Full-Scale Simulations</h3>
                         <p>Built simulation workflows coupling radiation-hydrodynamics codes
-                            to diagnostic forward models. Developed novel thermal physics models
-                            and analytic solutions for converging shock problems.</p>
+                            to diagnostic models in order to build synthetic experiments. Used these
+                            systems to verify analysis pipelines and investigate the complex noise properties of
+                            our measurement systems.</p>
                     </div>
+                    <!-- /EDITABLE: physics-simulation -->
+                    <!-- EDITABLE: physics-nif -->
                     <div class="detail-item">
-                        <h3>National Ignition Facility</h3>
-                        <p>Built analysis tools for x-ray imaging at the NIF. Contributed to
-                            understanding of stagnation physics and residual velocity measurements
-                            in ICF implosion experiments.</p>
+                        <h3>Reduced Physics Models</h3>
+                        <p>I have developed many reduced physics models to attempt to isolate
+                            the essential physics driving the dynamics of a given system and
+                            extract insight. This includes semi-analytic solutions to hydrodynamic systems,
+                            mechanical and thermal models of implosions, and models of atomic structure that
+                            drive thermodynamic behavior of materials.
+                        </p>
                     </div>
+                    <!-- /EDITABLE: physics-nif -->
                 </div>
 
-                <div class="prose" style="margin-top:2rem;">
-                    <h3>Selected Publications</h3>
-                    <ul>
-                        <li>P.W. Hatfield, J.A. Gaffney, … <strong>JJ Ruby</strong>, et al., "The data-driven future of
-                            high-energy-density physics," <em>Nature</em> 593, 351–361 (2021)</li>
-                        <li><strong>JJ Ruby</strong> et al., "Energy flow in thin shell implosions and explosions,"
-                            <em>Physical Review Letters</em> 125, 215001 (2020)</li>
-                        <li><strong>JJ Ruby</strong> et al., "Constraining physical models at gigabar pressures,"
-                            <em>Physical Review E</em> 102, 053210 (2020)</li>
-                        <li><strong>JJ Ruby</strong> et al., "High-energy-density-physics measurements in implosions
-                            using Bayesian inference," <em>Physics of Plasmas</em> 28, 032703 (2021)</li>
-                        <li><strong>JJ Ruby</strong> et al., "A boundary condition for Guderley's converging shock
-                            problem," <em>Physics of Fluids</em> 31, 126104 (2019)</li>
-                        <li><strong>JJ Ruby</strong> et al., "Spatially resolved X-ray emission measurements… in ICF
-                            implosion experiments," <em>Physics of Plasmas</em> 23, 072701 (2016)</li>
-                    </ul>
+                <h3 style="margin-top:2rem;">Highlighted Work: HED Physics &amp; Bayesian Inference</h3>
+
+                <div class="detail-list" style="margin-top:1rem;">
+                    <!-- EDITABLE: pub-nature -->
+                    <div class="detail-item">
+                        <h3><a href="https://www.nature.com/articles/s41586-021-03382-w">The Data-Driven Future of
+                                High-Energy-Density Physics</a></h3>
+                        <p class="timeline-meta"><em>Nature</em> 593, 351–361 (2021) &middot; P.W. Hatfield, J.A.
+                            Gaffney, … <strong>JJ Ruby</strong>, et al.</p>
+                        <p>A perspective article laying out the case for modern data analysis
+                            techniques including machine learning, Bayesian inference, and automated
+                            experimental design as essential tools for the future of HED physics.
+                            The field generates increasingly complex, high-dimensional datasets
+                            that outstrip traditional analysis; this paper surveys the emerging
+                            methods and argues for their systematic adoption.</p>
+                    </div>
+                    <!-- /EDITABLE: pub-nature -->
+                    <!-- EDITABLE: pub-pop -->
+                    <div class="detail-item">
+                        <h3><a href="https://pubs.aip.org/aip/pop/article/28/3/032703/835614">HED-Physics Measurements
+                                in Implosions Using Bayesian Inference</a></h3>
+                        <p class="timeline-meta"><em>Physics of Plasmas</em> 28, 032703 (2021) &middot; <strong>JJ
+                                Ruby</strong>, J.A. Gaffney, J.R. Rygg, Y. Ping, G.W. Collins</p>
+                        <p>Establishes laser-driven implosion experiments as a rich platform for
+                            fundamental physics measurements when coupled with principled statistical
+                            analysis. Demonstrates how Bayesian generative-modelling of nuclear and
+                            X-ray diagnostics transforms standard implosion data into quantitative
+                            constraints on thermodynamic conditions turning implosion experiments
+                            into a laboratory for studying fundamental physics.</p>
+                    </div>
+                    <!-- /EDITABLE: pub-pop -->
+                    <!-- EDITABLE: pub-pre -->
+                    <div class="detail-item">
+                        <h3><a href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.102.053210">Constraining
+                                Physical Models at Gigabar Pressures</a></h3>
+                        <p class="timeline-meta"><em>Physical Review E</em> 102, 053210 (2020) &middot; <strong>JJ
+                                Ruby</strong> et al.</p>
+                        <p>Develops a Bayesian inference framework for extracting physical
+                            information from HED experiments explicitly framing the problem
+                            as applied information theory. The paper lays the foundation to quantify how much
+                            physical information each diagnostic observable carries about the
+                            underlying state, enabling rigorous model selection and parameter
+                            constraint at gigabar pressures where direct measurement is impossible.</p>
+                    </div>
+                    <!-- /EDITABLE: pub-pre -->
+                    <!-- EDITABLE: pub-prl -->
+                    <div class="detail-item">
+                        <h3><a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.125.215001">Energy Flow
+                                in Thin Shell Implosions and Explosions</a></h3>
+                        <p class="timeline-meta"><em>Physical Review Letters</em> 125, 215001 (2020) &middot; <strong>JJ
+                                Ruby</strong> et al.</p>
+                        <p>The companion results paper to the PRE framework. Applies the
+                            Bayesian analysis methodology to experimental data from thin-shell
+                            implosion experiments on OMEGA, producing the first quantitative
+                            measurements of energy partitioning and flow in converging laser-driven
+                            systems.</p>
+                    </div>
+                    <!-- /EDITABLE: pub-prl -->
                 </div>
             </div>
         </section>
@@ -124,51 +187,71 @@
             <div class="container">
                 <span class="label">Baseball</span>
                 <h2 id="card-baseball">Baseball Research &amp; Development</h2>
+                <!-- EDITABLE: baseball-org -->
                 <p class="work-org">Houston Astros &middot; Senior Director, R&amp;D (2023–Present) &middot; Lead
                     Innovator (2022–2023)</p>
+                <!-- /EDITABLE: baseball-org -->
 
-                <div class="prose">
-                    <p>
-                        Leading the R&amp;D function for one of Major League Baseball's most
-                        analytically sophisticated organizations. The methodology transfers
-                        directly from physics: build honest probabilistic models of complex
-                        systems, test them against observed outcomes, and inform decisions
-                        under uncertainty.
-                    </p>
+                <div class="media-row">
+                    <figure class="figure">
+                        <img src="images/astros_WPB.jpg" alt="JJ Ruby at Astros spring training in West Palm Beach"
+                            loading="lazy">
+                    </figure>
+                    <div class="media-row-text">
+                        <!-- EDITABLE: baseball-intro -->
+                        <p>
+                            Major League Baseball presents a unique opportunity to study complex
+                            and integrated physical systems in a data rich environment. In my time with the Houston
+                            Astros I have been exposed to many different aspects of the game and have had the
+                            opportunity to apply my physical modeling
+                            techniques to a wide variety of problems in baseball operations. My work has emphasized the
+                            dynamical systems
+                            of baseball and the way that they interact with each other to drive player performance and
+                            development. Most recently I have had the opportunity to lead the research and development
+                            efforts for the Astros, overseeing
+                            the technical vision and strategy for the baseball organization.
+                        </p>
+                        <!-- /EDITABLE: baseball-intro -->
+                    </div>
                 </div>
 
                 <div class="detail-list">
+                    <!-- EDITABLE: baseball-research-leadership -->
                     <div class="detail-item">
-                        <h3>Research Leadership</h3>
-                        <p>Oversee ~20 technical staff including post-graduate researchers
-                            and software engineers. Set the technical and research direction
-                            for the organization and manage ~$5M annual budget.</p>
+                        <h3>Research</h3>
+                        <p>We run formal research programs across a number of different areas and collaborate with
+                            university and industry partners. </p>
                     </div>
+                    <!-- /EDITABLE: baseball-research-leadership -->
+                    <!-- EDITABLE: baseball-modelling -->
                     <div class="detail-item">
-                        <h3>Bayesian-Physical Modelling</h3>
-                        <p>Apply Bayesian-physical models to baseball systems including
-                            biomechanics, rigid body mechanics, and aerodynamics. Build
-                            probabilistic models of player performance and development
-                            trajectories.</p>
+                        <h3>Analysis</h3>
+                        <p>We build predictive models to aid with strategic decision making on many levels. These
+                            models vary in complexity from simple regressions to highly integrated Bayesian frameworks.
+                        </p>
                     </div>
+                    <!-- /EDITABLE: baseball-modelling -->
+                    <!-- EDITABLE: baseball-software -->
                     <div class="detail-item">
-                        <h3>Software Infrastructure</h3>
-                        <p>Direct the architectural design and development of the Astros'
-                            research and product software infrastructure. Manage relationships
-                            and contracts with external research partners and vendors.</p>
+                        <h3>Development</h3>
+                        <p>We serve and maintain the software infrastructure for the baseball organization including
+                            data and model pipelines and applications used across the organization for users to interact
+                            with our work. </p>
                     </div>
+                    <!-- /EDITABLE: baseball-software -->
+                    <!-- EDITABLE: baseball-impact -->
                     <div class="detail-item">
                         <h3>Cross-Organizational Impact</h3>
-                        <p>Collaborate across the organization to drive progress in all areas
-                            of baseball operations — translating statistical findings into
-                            actionable, decision-relevant outputs for scouts, coaches, and
-                            front-office leadership.</p>
+                        <p>The work of the research and development department touches every aspect of baseball
+                            operations from scouting, both amateur and professional, international and domestic, player
+                            development, in game strategy, etc. </p>
                     </div>
+                    <!-- /EDITABLE: baseball-impact -->
                 </div>
             </div>
         </section>
 
-        <!-- Teaching -->
+        <!-- Teaching (commented out)
         <section id="teaching" class="section" aria-labelledby="card-teaching">
             <div class="container">
                 <span class="label">Teaching</span>
@@ -207,6 +290,7 @@
                 </div>
             </div>
         </section>
+        end Teaching -->
 
         <!-- Media -->
         <section class="section section-alt">
@@ -215,6 +299,7 @@
                 <h2>In the Press</h2>
 
                 <div class="detail-list">
+                    <!-- EDITABLE: media-moneyball -->
                     <div class="detail-item">
                         <h3><a
                                 href="https://www.rochester.edu/newscenter/beyond-moneyball-alumnus-supports-the-houston-astros-using-physics-and-engineering-613422/">Beyond
@@ -222,12 +307,15 @@
                         <p>University of Rochester News Center, 2024 — "Alumnus supports the Houston Astros
                             using physics and engineering."</p>
                     </div>
+                    <!-- /EDITABLE: media-moneyball -->
+                    <!-- EDITABLE: media-podcast -->
                     <div class="detail-item">
                         <h3><a href="https://learnbayesstats.com/episode/47-bayes-in-physics-astrophysics-with-jj-ruby">Bayes
                                 in Physics &amp; Astrophysics</a></h3>
                         <p>Learning Bayesian Statistics podcast, 2021 — Discussion of Bayesian methods
                             in physics and astrophysics research.</p>
                     </div>
+                    <!-- /EDITABLE: media-podcast -->
                 </div>
             </div>
         </section>

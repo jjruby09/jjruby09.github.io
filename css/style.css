@@ -44,6 +44,7 @@ body {
   font-family: var(--font-body);
   -webkit-font-smoothing: antialiased;
   line-height: 1.7;
+  text-align: justify;
 }
 
 a {
@@ -359,6 +360,7 @@ li {
   border-left: 3px solid var(--color-accent);
   padding-left: 1.25rem;
   margin-bottom: 2.5rem;
+  text-align: justify;
 }
 
 /* ---------- Figure / Image Placeholders ---------- */
@@ -610,6 +612,7 @@ li {
   letter-spacing: 0.1em;
   color: var(--color-muted);
   margin-bottom: 0.75rem;
+  text-align: left;
 }
 
 /* ---------- Principle Feature (philosophy page) ---------- */
@@ -635,7 +638,7 @@ li {
 /* ---------- Contact ---------- */
 .contact-grid {
   display: grid;
-  grid-template-columns: 3fr 2fr;
+  grid-template-columns: 1fr 1fr;
   gap: calc(var(--gap) * 1.5);
   align-items: start;
 }
